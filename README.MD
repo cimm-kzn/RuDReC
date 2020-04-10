@@ -16,7 +16,8 @@ We make the RuDReC corpus and pretrained weights of domain-specific BERT models 
    link: https://yadi.sk/d/-PTn0xhk1PqvgQ
 
 
-Please refer to our paper for the detailed description of our corpus: \ 
+Please refer to our paper for the detailed description of our corpus: 
+
 [1] https://arxiv.org/abs/2004.03659
 ```
 @misc{tutubalina2020russian,
