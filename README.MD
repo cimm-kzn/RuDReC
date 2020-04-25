@@ -10,7 +10,7 @@ Abstract: The Russian Drug Reaction Corpus (RuDReC) is a new partially annotated
 We make the RuDReC corpus and pretrained weights of domain-specific BERT models freely available:
 
 1. Annotated part of the RuDReC corpus (500 reviews with sentence-level and entity-level annotations). \
-   link: https://yadi.sk/d/gSeGdF6coO_brQ
+   link: https://yadi.sk/d/PzrYMx02lhjSDg
 2. Raw part of the RuDReC corpus (1.4M reviews). \
    link: https://yadi.sk/d/kCsAhkoLZUuTrQ
 3. RuDR-BERT - Multilingual, Cased, which pretrained on the raw part of the RuDReC corpus (1.4M reviews). Multi-BERT was for used for initialization; vocabulary of Russian subtokens and parameters are the same as in Multi-BERT. \
