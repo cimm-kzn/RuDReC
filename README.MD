@@ -16,7 +16,8 @@ We make the RuDReC corpus and pretrained weights of domain-specific BERT models 
 3. RuDR-BERT - Multilingual, Cased, which pretrained on the raw part of the RuDReC corpus (1.4M reviews). Multi-BERT was for used for initialization; vocabulary of Russian subtokens and parameters are the same as in Multi-BERT. \
    link: https://yadi.sk/d/-PTn0xhk1PqvgQ
 
-
+This data is being released under the [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/).
+Users are referred to that source for the most current and accurate version of the text for the corresponding papers.
 Please refer to our paper for the detailed description of our corpus: 
 
 [1] https://arxiv.org/abs/2004.03659
