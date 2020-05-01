@@ -18,7 +18,17 @@ We make the RuDReC corpus and pretrained weights of domain-specific BERT models 
 
 This data is being released under the [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/).
 Users are referred to that source for the most current and accurate version of the text for the corresponding papers.
-Please refer to our paper for the detailed description of our corpus: 
+
+Examples
+---
+
+[This example](https://github.com/cimm-kzn/RuDReC/blob/master/examples/Raw_preprocessing.ipynb) shows you how to use the raw part of this corpus for training **fastText** embeddings.  The trained Russian [embeddings](https://drive.google.com/file/d/1su3IYY1avcj95tez69JI8f5qsTng72-I/view?usp=sharing) are freely available. \
+[This example](https://github.com/cimm-kzn/RuDReC/blob/master/examples/Tweets_classification_CNN.ipynb) shows you how to train CNN-based classifier on SMM4H 2020 Task 2 Russian data. For English, see also [word embeddings](https://github.com/dartrevan/ChemTextMining/blob/master/word2vec/Health_2.5mreviews.s200.w10.n5.v15.cbow.bin) trained on 2.5M health-related English comments [2]
+
+
+Citing & Authors
+---
+If you find this repository helpful, feel free to cite our publication:
 
 [1] https://arxiv.org/abs/2004.03659
 ```
@@ -29,5 +39,19 @@ Please refer to our paper for the detailed description of our corpus:
     eprint={2004.03659},
     archivePrefix={arXiv},
     primaryClass={cs.CL}
+}
+```
+[2] Tutubalina, EV and Miftahutdinov, Z Sh and Nugmanov, RI and Madzhidov, TI and Nikolenko, SI and Alimova, IS and Tropsha, AE Using semantic analysis of texts for the identification of drugs with similar therapeutic effects.
+   [link to paper](https://www.researchgate.net/profile/Elena_Tutubalina/publication/323751823_Using_semantic_analysis_of_texts_for_the_identification_of_drugs_with_similar_therapeutic_effects/links/5bf7cfc3299bf1a0202cbc1f/Using-semantic-analysis-of-texts-for-the-identification-of-drugs-with-similar-therapeutic-effects.pdf)
+```
+@article{tutubalina2017using,
+    title={Using semantic analysis of texts for the identification of drugs with similar therapeutic effects},
+    author={Tutubalina, EV and Miftahutdinov, Z Sh and Nugmanov, RI and Madzhidov, TI and Nikolenko, SI and Alimova, IS and Tropsha, AE},
+    journal={Russian Chemical Bulletin},
+    volume={66},
+    number={11},
+    pages={2180--2189},
+    year={2017},
+    publisher={Springer}
 }
 ```
