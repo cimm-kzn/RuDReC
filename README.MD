@@ -17,7 +17,8 @@ We make the RuDReC corpus and pretrained weights of domain-specific BERT models 
    link: https://yadi.sk/d/-PTn0xhk1PqvgQ
 4. EnRuDR-BERT - Multilingual, Cased, which pretrained on the raw part of the RuDReC corpus [1] and the English corpus of health-related comments from [2]. We note that this model is currently under development. \
    link: https://yadi.sk/d/H5ed7IkOELrezQ
-
+5. EnDR-BERT - Multilingual, Cased, which pretrained on the English corpus of health-related comments from [2]. \
+   link: https://drive.google.com/file/d/1OxOGbZJo5ZuCQkeEhTraHrxNh81gZFze/view?usp=sharing
 
 Examples
 ---
