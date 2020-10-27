@@ -15,12 +15,12 @@ BERT-based models
 ---
 1. RuDR-BERT - Multilingual, Cased, which pretrained on the raw part of the RuDReC corpus (1.4M reviews). Pre-training was based on the [original BERT code](https://github.com/google-research/bert) provided by Google. In particular, Multi-BERT was for used for initialization; vocabulary of Russian subtokens and parameters are the same as in Multi-BERT. Training details are described in our paper. \
    link: https://yadi.sk/d/-PTn0xhk1PqvgQ
-2. EnRuDR-BERT - Multilingual, Cased, which pretrained on the raw part of the RuDReC corpus [1] and the English corpus of health-related comments from [2]. We note that this model is currently under development. \
+2. EnRuDR-BERT - Multilingual, Cased, which pretrained on the raw part of the RuDReC corpus [1] and the English corpus of health-related comments from [2]. \
    link: https://yadi.sk/d/H5ed7IkOELrezQ
 3. EnDR-BERT - Multilingual, Cased, which pretrained on the English corpus of health-related comments from [2]. \
    link: https://drive.google.com/file/d/1OxOGbZJo5ZuCQkeEhTraHrxNh81gZFze/view?usp=sharing
 
-All models are also available at https://huggingface.co/cimm-kzn
+All models are also available at https://huggingface.co/cimm-kzn 🤗 
  
 Examples
 ---
