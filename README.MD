@@ -20,6 +20,8 @@ We make the RuDReC corpus and pretrained weights of domain-specific BERT models 
 5. EnDR-BERT - Multilingual, Cased, which pretrained on the English corpus of health-related comments from [2]. \
    link: https://drive.google.com/file/d/1OxOGbZJo5ZuCQkeEhTraHrxNh81gZFze/view?usp=sharing
 
+All models are also available at https://huggingface.co/cimm-kzn
+ 
 Examples
 ---
 
@@ -49,7 +51,7 @@ If you find this repository helpful, feel free to cite our publication:
     eprint = {https://academic.oup.com/bioinformatics/article-pdf/doi/10.1093/bioinformatics/btaa675/33539752/btaa675.pdf},
 }
 ```
-[2] Tutubalina, EV and Miftahutdinov, Z Sh and Nugmanov, RI and Madzhidov, TI and Nikolenko, SI and Alimova, IS and Tropsha, AE Using semantic analysis of texts for the identification of drugs with similar therapeutic effects.
+[2] Tutubalina, E. V., Miftahutdinov, Z. S., Nugmanov, R. I., Madzhidov, T. I., Nikolenko, S. I., Alimova, I. S., & Tropsha, A. E. (2017). Using semantic analysis of texts for the identification of drugs with similar therapeutic effects. Russian Chemical Bulletin, 66(11), 2180-2189.
    [link to paper](https://www.researchgate.net/profile/Elena_Tutubalina/publication/323751823_Using_semantic_analysis_of_texts_for_the_identification_of_drugs_with_similar_therapeutic_effects/links/5bf7cfc3299bf1a0202cbc1f/Using-semantic-analysis-of-texts-for-the-identification-of-drugs-with-similar-therapeutic-effects.pdf)
 ```
 @article{tutubalina2017using,
