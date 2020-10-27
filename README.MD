@@ -4,18 +4,20 @@ The Russian Drug Reaction Corpus (RuDReC) [1] is a new partially annotated corpu
 
 The corpus itself consists of two parts, the raw one and the labelled one. The raw part includes 1.4 million health-related user-generated texts collected from various Internet sources, including social media. The labelled part contains 500 consumer reviews about drug therapy with drug- and disease-related information. Labels for sentences include health-related issues or their absence. The sentences with one are additionally labelled at the expression level for identification of fine-grained subtypes such as drug classes and drug forms, drug indications, and drug reactions. Further, we present a baseline model for named entity recognition (NER) and multi-label sentence classification tasks on this corpus. The macro F1 score of 74.85% in the NER task was achieved by our RuDR-BERT model. For the sentence classification task, our model achieves the macro F1 score of 68.82% gaining 7.47% over the score of BERT model trained on Russian data. 
 
-\
 We make the RuDReC corpus and pretrained weights of domain-specific BERT models freely available:
 
 1. Annotated part of the RuDReC corpus (500 reviews with sentence-level and entity-level annotations). \
    link: https://yadi.sk/d/PzrYMx02lhjSDg
 2. Raw part of the RuDReC corpus (1.4M reviews). \
    link: https://yadi.sk/d/kCsAhkoLZUuTrQ
-3. RuDR-BERT - Multilingual, Cased, which pretrained on the raw part of the RuDReC corpus (1.4M reviews). Pre-training was based on the [original BERT code](https://github.com/google-research/bert) provided by Google. In particular, Multi-BERT was for used for initialization; vocabulary of Russian subtokens and parameters are the same as in Multi-BERT. Training details are described in our paper. \
+
+BERT-based models
+---
+1. RuDR-BERT - Multilingual, Cased, which pretrained on the raw part of the RuDReC corpus (1.4M reviews). Pre-training was based on the [original BERT code](https://github.com/google-research/bert) provided by Google. In particular, Multi-BERT was for used for initialization; vocabulary of Russian subtokens and parameters are the same as in Multi-BERT. Training details are described in our paper. \
    link: https://yadi.sk/d/-PTn0xhk1PqvgQ
-4. EnRuDR-BERT - Multilingual, Cased, which pretrained on the raw part of the RuDReC corpus [1] and the English corpus of health-related comments from [2]. We note that this model is currently under development. \
+2. EnRuDR-BERT - Multilingual, Cased, which pretrained on the raw part of the RuDReC corpus [1] and the English corpus of health-related comments from [2]. We note that this model is currently under development. \
    link: https://yadi.sk/d/H5ed7IkOELrezQ
-5. EnDR-BERT - Multilingual, Cased, which pretrained on the English corpus of health-related comments from [2]. \
+3. EnDR-BERT - Multilingual, Cased, which pretrained on the English corpus of health-related comments from [2]. \
    link: https://drive.google.com/file/d/1OxOGbZJo5ZuCQkeEhTraHrxNh81gZFze/view?usp=sharing
 
 All models are also available at https://huggingface.co/cimm-kzn
