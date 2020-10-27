@@ -20,7 +20,7 @@ BERT-based models
 3. EnDR-BERT - Multilingual, Cased, which pretrained on the English corpus of health-related comments from [2]. \
    link: https://drive.google.com/file/d/1OxOGbZJo5ZuCQkeEhTraHrxNh81gZFze/view?usp=sharing
 
-All models are also available at https://huggingface.co/cimm-kzn 🤗 
+We release our pre-trained models at https://huggingface.co/cimm-kzn 🤗 
  
 Examples
 ---
