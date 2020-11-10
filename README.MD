@@ -10,6 +10,13 @@ We make the RuDReC corpus and pretrained weights of domain-specific BERT models 
    link: https://yadi.sk/d/PzrYMx02lhjSDg
 2. Raw part of the RuDReC corpus (1.4M reviews). \
    link: https://yadi.sk/d/kCsAhkoLZUuTrQ
+   
+The Russian Adverse Drug Reaction Corpus of Tweets (RuADReCT)
+---
+
+This dataset consists of 9515 tweets describing health issues. Each tweet is labeled for whether it contains information about an adverse side effect that occurred when taking a drug. The files contain the tweet ID, class number, and a script for collecting the source text. The dataset was created as part of The Social Media Mining for Health Applications (#SMM4H) Shared Tasks in a competition for automatically extracting information about the side effects of drugs from tweets. The dataset was a joint effort with the UPenn HLP Center (https://healthlanguageprocessing.org/) and the Yandex.Toloka (https://toloka.ai/datasets?turbo=true).
+
+You can find the corpus in datasets directory or download from Yandex.Toloka (https://tlk.s3.yandex.net/dataset/RuADReCT.zip).
 
 BERT-based models
 ---
