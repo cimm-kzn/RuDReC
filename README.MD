@@ -8,7 +8,9 @@ We make the RuDReC corpus and pretrained weights of domain-specific BERT models 
 
 1. Annotated part of the RuDReC corpus (500 reviews with sentence-level and entity-level annotations). \
    link: https://yadi.sk/d/PzrYMx02lhjSDg
-2. Raw part of the RuDReC corpus (1.4M reviews). \
+2. Annotated part of the RuDReC corpus with concept ids in json format (500 reviews with sentence-level and entity-level annotations).
+   link: https://yadi.sk/d/-enD7Gesf7sMRA
+3. Raw part of the RuDReC corpus (1.4M reviews). \
    link: https://yadi.sk/d/kCsAhkoLZUuTrQ
    
 The Russian Adverse Drug Reaction Corpus of Tweets (RuADReCT)
