@@ -41,12 +41,6 @@ Examples
 
 The trained Russian **fastText** [embeddings](https://drive.google.com/file/d/1su3IYY1avcj95tez69JI8f5qsTng72-I/view?usp=sharing) are freely available. See also [English word embeddings](https://github.com/dartrevan/ChemTextMining/blob/master/word2vec/Health_2.5mreviews.s200.w10.n5.v15.cbow.bin) trained on 2.5M health-related English comments [2].
 
-[This example](https://github.com/cimm-kzn/RuDReC/blob/master/examples/Raw_preprocessing.ipynb) shows you how to use the raw part of this corpus for training **fastText** embeddings.  The trained Russian [embeddings](https://drive.google.com/file/d/1su3IYY1avcj95tez69JI8f5qsTng72-I/view?usp=sharing) are freely available. \
-[This example](https://github.com/cimm-kzn/RuDReC/blob/master/examples/Tweets_classification_CNN.ipynb) shows you how to train CNN-based classifier on SMM4H 2020 Task 2 Russian data. [This example](https://github.com/Andoree/smm4h_classification/blob/master/SMM4H_2020_ADR_classification.ipynb) shows how to train BERT-based classifier for the ADR classification task. For English, see also [word embeddings](https://github.com/dartrevan/ChemTextMining/blob/master/word2vec/Health_2.5mreviews.s200.w10.n5.v15.cbow.bin) trained on 2.5M health-related English comments [2]. \
-[This example](https://github.com/cimm-kzn/RuDReC/blob/master/examples/multilabel_text_classification_RuDReC_bert.ipynb) (also available via [Colab](https://colab.research.google.com/drive/1g_2W__vi6fuEn8pSma0NXNHbNuebptHF?usp=sharing)) shows how to train a multi-label classifier on our data and use this model for prediction.  \
-This example (available via [Colab](https://colab.research.google.com/drive/12QVJ9ApygShdEyjkwddB380QzbYuQB9D?usp=sharing)) shows how to use NER models for detection of named entities such as drugs and adverse drug reactions.
-
-
 
 Citing & Authors
 ---
