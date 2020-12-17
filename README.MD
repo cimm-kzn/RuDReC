@@ -35,7 +35,7 @@ Examples
 ---
 * [Training **fastText** embeddings on the raw part of our corpus](https://github.com/cimm-kzn/RuDReC/blob/master/examples/Raw_preprocessing.ipynb) 
 * [CNN-based classifier on SMM4H 2020 Task 2 data (ADR classification)](https://github.com/cimm-kzn/RuDReC/blob/master/examples/Tweets_classification_CNN.ipynb) 
-* [BERT-based classifier on the SMM4H ADR classification task](https://github.com/Andoree/smm4h_classification/blob/master/SMM4H_2020_ADR_classification.ipynb)
+* [BERT-based classifier on the SMM4H ADR data](https://github.com/Andoree/smm4h_classification/blob/master/SMM4H_2020_ADR_classification.ipynb)
 * [Code](https://github.com/cimm-kzn/RuDReC/blob/master/examples/multilabel_text_classification_RuDReC_bert.ipynb) and [colab notebook](https://colab.research.google.com/drive/1g_2W__vi6fuEn8pSma0NXNHbNuebptHF?usp=sharing) on how to train a multi-label classifier on the RuDReC data and use this model for prediction. 
 * [Colab notebook](https://colab.research.google.com/drive/12QVJ9ApygShdEyjkwddB380QzbYuQB9D?usp=sharing) on how to use **NER** models for detection of named entities such as drugs and adverse drug reactions.
 
