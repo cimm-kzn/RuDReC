@@ -8,7 +8,7 @@ We make the RuDReC corpus and pretrained weights of domain-specific BERT models 
 
 1. Annotated part of the RuDReC corpus (500 reviews with sentence-level and entity-level annotations). \
    link: https://yadi.sk/d/PzrYMx02lhjSDg
-2. Annotated part of the RuDReC corpus with concept ids in json format (500 reviews with sentence-level and entity-level annotations). You can find the 'rudrec_annotated.json' file in data directory or download by \
+2. Annotated part of the RuDReC corpus with concept ids in json format (500 reviews with sentence-level and entity-level annotations). The json includes follow fields: "file_name" - the id of review, "text" - sentence text, "entities" - annotated entities. You can find the 'rudrec_annotated.json' file in data directory or download by \
     link: https://yadi.sk/d/-enD7Gesf7sMRA
 3. Raw part of the RuDReC corpus (1.4M reviews). \
    link: https://yadi.sk/d/kCsAhkoLZUuTrQ
